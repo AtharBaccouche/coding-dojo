@@ -1,39 +1,40 @@
-img.octocat {
-    height: 200px;
+body{
+    font-style: 'Roboto', sans-serif;
+}
 
 
-
+.nav{
+    display:flex;
+    background: gray;
+    width: 1000px;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
 }
-.container{
-    background-color: aliceblue;
-    width: 800px;
-    text-align: center;
-    padding: 20px;
-    margin:0 auto;
-}
-h1{
-    margin-bottom: 20px;
-    margin-top: 0;
-}
-.row1{
-    display: flex;
-    background-color: blueviolet;
-    padding: 20px;
-    justify-content:space-evenly;
-    margin:20px;
+.nav-title{
+    color: white;
+    margin-left: 10px;
     
 }
-.row2{ 
+.nav-links{ 
+    width: 50%;
     display:flex;
-    background-color: lightpink;
-    padding: 20px;
-    justify-content:space-around;
-    margin:20px;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
 }
-.row3{
-    display: flex;
-    background-color: white;
-    padding:20px;
-    margin:20px;
-    justify-content: space-evenly;
+    
+
+a{
+    color:white;
+    text-decoration: none;
+}
+.btn{
+    height: 35px;
+    width: 100px;
+background: cyan;
+color: white;
+border: none;
+box-shadow: 5px 5px black;
+font-weight: 900;
 }
