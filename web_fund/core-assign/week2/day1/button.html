@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="./button.css">
+</head>
+<body>
+    <nav>
+        <ul class="flex center space-around">
+            <li><h1>Dojonary</h1></li>
+            <li><input type="text" placeholder="Search"></li>
+            <button onclick="logout(this)" class="btn">login</button>
+        </ul>
+
+    </nav>
+    <div class="container flex space-between">
+        <!-- left side -->
+        <div class="left">
+            <div class="box flex space-around al-it-center">
+                <div class="ninja flex">
+                    <h1>ninja</h1>
+                    <h3><em>noun</em></h3>
+                    <h5>Plural:ninjas</h5>
+                    <button onclick="alert('Ninja was liked')" class="yellow">13 likes</button>
+                </div>
+                <div>
+                    <p>A practitioner skilled in the <br> <a href="">Japanease</a> art of <a href=""> ninjutsu</a></p>
+                </div>
+            </div>
+
+            <div class="box flex space-around al-it-center">
+                <div class="ninja flex">
+                    <h1>ninja</h1>
+                    <h3><em>noun</em></h3>
+                    <h5>Plural:ninjas</h5>
+                    <button class="yellow">37 likes</button>
+                </div>
+                <div>
+                    <p>A <a href="">Programmer</a> who breaks <br>down problems with<a href=""> zen</a>-like <br>focus</p>
+                </div>
+            </div>
+
+
+        </div>
+
+        <!-- right side -->
+        <div class="right">
+            <h1>Dojonary is <br>defined by you</h1>
+            <button onclick="hide(this)"  class="green">Add definition</button>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <script src="./button.js"></script>
+</body>
+</html>
