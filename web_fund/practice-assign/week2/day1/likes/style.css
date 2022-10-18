@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    border: 2px solid black;
+    width: 40%;
+    margin: 30px auto;
+    padding: 30px
+}
+.flex {
+    display: flex;
+}
+.space-between{
+    justify-content: space-between;
+}
+.right {
+    width: 200px;
+}
+.top {
+    margin-bottom:20px ;
+}
+.yellow{
+    background-color: yellow;
+    width: 60px;
+}
